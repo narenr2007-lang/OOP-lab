@@ -1,1 +1,19 @@
+//Calculator
+public class Calculator{
+	public void add(int a, int b){
+	return a+b;
+	}
+	protected void display(){
+	System.out.println("This is a protected message")
+	}
+	private void show(){
+	System.out.println("This is a private method")
+	}
+	public void accessPrivate(){
+	show()
+	}
+}
+
+// Advanced calculator
+public class Advancedcalculator extends Calculator{
 
